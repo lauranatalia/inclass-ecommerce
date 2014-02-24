@@ -1,0 +1,37 @@
+html{
+	background-color: #F7EFE2;
+}
+
+.btn,
+html {
+  background-color: #393939;
+
+}
+
+.btn:link,
+.btn:visited {
+	display: inline-block;
+	padding: 0.75em 1em;
+	background-color: #ff5a09;
+	background-image: linear-gradient(to bottom,#f3843e,#ff5a09);
+	border-radius: 4px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+	color: #FFFFFF;
+	font-weight: bold;
+	border: 0;
+}
+
+
+.btn-alt,
+.btn-alt:link,
+.btn-alt:visited {
+	display: inline-block;
+	padding: 0.75em 1em;
+	background-color: #ff9900;
+	background-image: linear-gradient(to bottom,#F6C479,#ff9900); 
+	border-radius: 4px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+	color: #FFFFFF;
+	font-weight: bold;
+	border: 0;
+}
