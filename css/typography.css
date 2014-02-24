@@ -144,7 +144,7 @@ small, .milli {
 
 h1, h2, h3, h4, h5, h6,
 .brand {
-  color: #5d8432;
+  color: #ff5409; /*color de los titulos - NARANJA*/
   font-family: "Patua One",serif;
 }
 
@@ -158,23 +158,23 @@ h1, h2, h3, h4, h5, h6,
 
 a,
 a:link {
-  border-bottom: 0.1em solid rgba(121,50,132,0.5);
+  border-bottom: 0.1em solid rgba(255,84,9,0.5);
   transition: all 150ms linear;
 
-  color: #793284;
+  color: #f3843e;/*?????????*/
   text-decoration: none;
 }
 
-a:visited {
-  color: #68446e;
-  border-bottom-color: rgba(104,68,110,0.5);
+a:visited { 
+  color: #ff9900; /*color de los links - AMARILLO*/
+  border-bottom-color: rgba(255,153,0,0.5);
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: #b42885;
-  border-bottom-color: #b42885;
+  color: #f3843e; /*color de los links cuando se oprime en ellos*/
+  border-bottom-color: #F1965D;
 }
 
 sup,
@@ -200,7 +200,7 @@ abbr {
 ins {
   border-bottom: 0.1em dotted rgba(0,0,0,0.5);
 
-  color: #000;
+  color: #000; /*la palabra en el texto q esta en negro*/
   text-decoration: none;
 }
 
@@ -209,12 +209,12 @@ del {
 }
 
 mark {
-  background-color: #e3f595;
+  background-color: #EEB794; /*la palabra que esta surrayada en el texto*/
 }
 
 hr {
   border: 0;
-  border-bottom: 1px solid #c7c0ae;
+  border-bottom: 1px solid #6e6e6e; /*color de las lineas separadoras GRIS*/
 }
 
 dt {
@@ -250,7 +250,7 @@ ul li:before {
 blockquote {
   padding-left: 1.5rem;
 
-  border-left: 4px solid #c7c0ae;
+  border-left: 4px solid #f3843e; /*palito de la quote*/
 }
 
 blockquote footer {
@@ -271,7 +271,8 @@ caption {
 }
 
 th {
-  background-color: #eae8e1;
+  background-color: #EEB794; /*el fonde de la table*/
+  opacity:0.4;
 
   text-align: left;
 }
@@ -279,5 +280,5 @@ th {
 th, td {
   padding: 0.25rem;
 
-  border: 1px solid #c7c0ae;
+  border: 1px solid #c7c0ae; /*las lineas de la table*/
 }

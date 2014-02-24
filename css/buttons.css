@@ -1,4 +1,9 @@
 .btn,
+html {
+  background-color: #393939;
+
+}
+
 .btn:link,
 .btn:visited {
 	display: inline-block;
@@ -19,4 +24,3 @@
 	background-color: #5d8432;
 	background-image: linear-gradient(to bottom,#5d8432,#3b6210);	
 }
-
