@@ -8,6 +8,20 @@ meta: All the dinosaurs that ever existed in the world
 <h1>Dinosaurs</h1>
 </div>
 <div class="unit unit-s-1 unit-m-1-2 unit-l-2-3">
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a adipiscing nibh. Nullam vel ipsum orci. Nam sit amet augue vitae tellus facilisis pretium.</p>
+<p>Lorem ipsum 22dolor sit amet, consectetur adipiscing elit. Aliquam a adipiscing nibh. Nullam vel ipsum orci. Nam sit amet augue vitae tellus facilisis pretium.</p>
 </div>
 </div>
+
+
+<ul>
+	{% for dino in site.pages %}
+		{% if dino.category == 'dinosaur' %}
+		<li>
+			<a href="{{dino.url}}">
+			<img src="{{site.baseurl}}/images/{{dino.image}}" alt="">
+			{{dino.name}}</li>
+			</a>
+		</li>
+		{% endif %}
+	{% endfor %}
+</ul>
