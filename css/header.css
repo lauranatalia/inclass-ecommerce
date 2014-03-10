@@ -37,3 +37,16 @@
   }
 
 }
+
+.banner {
+	background: #368826 url("../images/banner.jpg") no-repeat center center; 
+	background-size: cover;
+	padding: 5rem 1rem 1rem;
+	text-align:center;
+	color: #fff;
+}
+
+.banner h1 {
+	color: #fff;
+}
+	
